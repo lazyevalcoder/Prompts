@@ -24,6 +24,7 @@ chatgpt code interpreter /advanced data analysis like tool (but minimal)v
 - test user flows, invalid inputs, and clear feedback messaging
 
 ## Checklist: (think like an architect and product manager)
+backend
 - assumptions
 - unknowns
 - what must work
@@ -33,6 +34,18 @@ chatgpt code interpreter /advanced data analysis like tool (but minimal)v
 - failure modes
 - hardest technical component
 - why it may fail
+
+frontend
+- What must work perfectly?
+- Who is this really for?
+- What problem are we actually solving?
+- What would confuse a first-time user?
+- Where could users get stuck or drop off?
+- What assumptions are we making?
+- What happens when something fails?
+- What are we overcomplicating?
+- What would make this feel slow or heavy?
+- What would make users lose trust?
 
 ## Implementation protocol:
 1. Each implementation phase must include:
