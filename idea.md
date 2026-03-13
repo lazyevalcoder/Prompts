@@ -2,6 +2,7 @@
 chatgpt code interpreter /advanced data analysis like tool (but minimal)v
 
 ## Features: (think like a technical product manager)
+- ai data analyst
 - LLM backend is llama.cpp running locally. use OpenAI sdk and llama.cpp endpoint.
 - sandbox code execution like repl (no containers/vm)
 - when llm generates wrong code, code sent back to llm with error to get corrected.
@@ -9,14 +10,25 @@ chatgpt code interpreter /advanced data analysis like tool (but minimal)v
 - need solid test cases with sample csv created and testing response from llm
 
 ## ux/ui: (think like a senior designer)
-- for now, no front end.
-- interactive command line mode
+- Persona
+- Visual anchor
+- Spatial strategy
+- typography
+- high impact moment
+- colour palette
+- anti patterns
 
 ## control flow: (think like a senior design engineer)
-- user runs the main.py
-- prompted for csv file and task/question
-- user provides file and the question
-- user gets the result in natural English (no code)
+- Entry trigger
+- Inputs & validation
+- State model
+- Happy path
+- Decision branches
+- Failure handling
+- Retry / loops
+- Exit conditions
+- Side effects
+- Observability
 
 ## testing: (think like a senior qa engineer)
 - validate critical functions and failure paths independently
